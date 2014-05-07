@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+.container:not(:last-of-type) { margin-bottom: 80px; }
+.navbar .container            { margin-bottom: 0; }
+.navbar-offset                { margin-top: 50px; }
+
+h1, h2, h3 { font-family: 'Bevan', serif; }
+
+#newsletter-email-input { width: 24em; }
+
+.jumbotron {
+  margin-bottom: 80px;
+  background-image: url('../img/home-background.jpg');
+  background-size: cover;
+  background-position: 100% 100%;
+  padding-top: 64px;
+  padding-bottom: 128px;
+  text-align: center;
+}
+.jumbotron .well { background-color: rgba(245, 245, 245, 0.75); }
+.jumbotron h1    { font-size: 48px; margin-bottom: 40px; }
+.jumbotron .btn  { margin: 0.4em; }
+
+#professionnels                { text-align: center; }
+#professionnels h2             { margin-bottom: 80px; }
+#professionnels .professionnel { margin-bottom: 70px; }
+#professionnels .nom           { display: block; color: #333; }
+#professionnels a:hover        { text-decoration: none; }
+#professionnels a:hover .nom   { color: #666; }
+#professionnels img {
+  height: 100px;
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+#texte-petition { font-size: 16px; }
+#texte-petition h2 { margin-top: 20px; margin-bottom: 30px; }
+#texte-petition .header-buttons .btn {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+#texte-petition .well.callout {
+  background-color: #428bca;
+  border-color: #357ebd;
+  color: white;
+  text-align: center;
+  margin: 50px 0 75px;
+}
+#texte-petition .well.callout .btn { color: #428bca; }
+#texte-petition .well.callout,
+#texte-petition .well.callout .btn-default {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer {
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .info {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #texte-petition .well.callout .callout-inner { margin-right: 100px; }
+}
+@media (max-width: 991px) {
+  #texte-petition .well.callout .btn { margin-top: 20px; }
+}

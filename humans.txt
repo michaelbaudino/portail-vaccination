@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Nathalie Gelbert     -- Présidente de l'AFPA         -- nathalie.gelbert@sfr.fr
+    Georges Thiebault    -- Contenu & gestion du site    -- georges.thiebault@wanadoo.fr
+    François Vié-le-Sage -- Communication & SurveyMonkey -- fr.vls@sfr.fr
+    Michael Baudino      -- Développement web            -- michael.baudino@alpine-lab.com
+
+# THANKS
+
+    AFPA
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    Bootstrap, FontAwesome
